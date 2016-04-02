@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		400A3F171CAE1C7A00FE4A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A3F161CAE1C7A00FE4A1A /* AppDelegate.swift */; };
-		400A3F191CAE1C7A00FE4A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A3F181CAE1C7A00FE4A1A /* ViewController.swift */; };
+		400A3F191CAE1C7A00FE4A1A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A3F181CAE1C7A00FE4A1A /* SignUpViewController.swift */; };
 		400A3F1C1CAE1C7A00FE4A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400A3F1A1CAE1C7A00FE4A1A /* Main.storyboard */; };
 		400A3F1E1CAE1C7A00FE4A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400A3F1D1CAE1C7A00FE4A1A /* Assets.xcassets */; };
 		400A3F211CAE1C7A00FE4A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400A3F1F1CAE1C7A00FE4A1A /* LaunchScreen.storyboard */; };
+		4068DAFA1CAE4DB2001974F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068DAF91CAE4DB2001974F6 /* LoginViewController.swift */; };
+		4068DAFC1CAE5AB4001974F6 /* BooksListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068DAFB1CAE5AB4001974F6 /* BooksListTableViewController.swift */; };
+		4068DAFE1CAE5AD7001974F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068DAFD1CAE5AD7001974F6 /* DetailViewController.swift */; };
+		40C8D4411CAEE0D800C280CF /* BookAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D4401CAEE0D800C280CF /* BookAddViewController.swift */; };
+		40C8D4431CAF17B400C280CF /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D4421CAF17B400C280CF /* BookTableViewCell.swift */; };
+		40C8D4451CAF1B5100C280CF /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D4441CAF1B5100C280CF /* BookTableViewController.swift */; };
+		40C8D4471CAF84DE00C280CF /* DataFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D4461CAF84DE00C280CF /* DataFirebase.swift */; };
+		40C8D44B1CAFD25300C280CF /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D44A1CAFD25300C280CF /* Book.swift */; };
+		40C8D44D1CAFDC9F00C280CF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D44C1CAFDC9F00C280CF /* ChatViewController.swift */; };
+		40D35F0B1CAE1D7E00DB6A3A /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D35F0A1CAE1D7E00DB6A3A /* Firebase.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EA48F7ADB04247FDD29952A6 /* Pods_GoToBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2167FC209636AC8C4B762B /* Pods_GoToBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		400A3F131CAE1C7A00FE4A1A /* GoToBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoToBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		400A3F161CAE1C7A00FE4A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		400A3F181CAE1C7A00FE4A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		400A3F181CAE1C7A00FE4A1A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		400A3F1B1CAE1C7A00FE4A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		400A3F1D1CAE1C7A00FE4A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400A3F201CAE1C7A00FE4A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400A3F221CAE1C7A00FE4A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4068DAF91CAE4DB2001974F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4068DAFB1CAE5AB4001974F6 /* BooksListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListTableViewController.swift; sourceTree = "<group>"; };
+		4068DAFD1CAE5AD7001974F6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		40C8D4401CAEE0D800C280CF /* BookAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAddViewController.swift; sourceTree = "<group>"; };
+		40C8D4421CAF17B400C280CF /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		40C8D4441CAF1B5100C280CF /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		40C8D4461CAF84DE00C280CF /* DataFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFirebase.swift; sourceTree = "<group>"; };
+		40C8D44A1CAFD25300C280CF /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		40C8D44C1CAFDC9F00C280CF /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "../../../../Downloads/ChatChat-finished/ChatChat/ChatViewController.swift"; sourceTree = "<group>"; };
+		40D35F0A1CAE1D7E00DB6A3A /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "Pods/../build/Debug-iphoneos/Firebase.framework"; sourceTree = "<group>"; };
+		603F82795E25718B777BEF5C /* Pods-GoToBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoToBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoToBook/Pods-GoToBook.release.xcconfig"; sourceTree = "<group>"; };
+		8F2167FC209636AC8C4B762B /* Pods_GoToBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoToBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B9951104F202D5C5FC942A /* Pods-GoToBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoToBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoToBook/Pods-GoToBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA48F7ADB04247FDD29952A6 /* Pods_GoToBook.framework in Frameworks */,
+				40D35F0B1CAE1D7E00DB6A3A /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,8 @@
 			children = (
 				400A3F151CAE1C7A00FE4A1A /* GoToBook */,
 				400A3F141CAE1C7A00FE4A1A /* Products */,
+				CEC91E5B9B2304D4A5336320 /* Pods */,
+				76CEDFB63C7712A4AE3B780F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +83,40 @@
 			isa = PBXGroup;
 			children = (
 				400A3F161CAE1C7A00FE4A1A /* AppDelegate.swift */,
-				400A3F181CAE1C7A00FE4A1A /* ViewController.swift */,
+				400A3F181CAE1C7A00FE4A1A /* SignUpViewController.swift */,
+				4068DAF91CAE4DB2001974F6 /* LoginViewController.swift */,
+				4068DAFB1CAE5AB4001974F6 /* BooksListTableViewController.swift */,
+				4068DAFD1CAE5AD7001974F6 /* DetailViewController.swift */,
+				40C8D4401CAEE0D800C280CF /* BookAddViewController.swift */,
+				40C8D44C1CAFDC9F00C280CF /* ChatViewController.swift */,
+				40C8D4441CAF1B5100C280CF /* BookTableViewController.swift */,
+				40C8D4421CAF17B400C280CF /* BookTableViewCell.swift */,
+				40C8D4461CAF84DE00C280CF /* DataFirebase.swift */,
 				400A3F1A1CAE1C7A00FE4A1A /* Main.storyboard */,
 				400A3F1D1CAE1C7A00FE4A1A /* Assets.xcassets */,
 				400A3F1F1CAE1C7A00FE4A1A /* LaunchScreen.storyboard */,
 				400A3F221CAE1C7A00FE4A1A /* Info.plist */,
+				40C8D44A1CAFD25300C280CF /* Book.swift */,
 			);
 			path = GoToBook;
+			sourceTree = "<group>";
+		};
+		76CEDFB63C7712A4AE3B780F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D35F0A1CAE1D7E00DB6A3A /* Firebase.framework */,
+				8F2167FC209636AC8C4B762B /* Pods_GoToBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC91E5B9B2304D4A5336320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4B9951104F202D5C5FC942A /* Pods-GoToBook.debug.xcconfig */,
+				603F82795E25718B777BEF5C /* Pods-GoToBook.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 400A3F251CAE1C7A00FE4A1A /* Build configuration list for PBXNativeTarget "GoToBook" */;
 			buildPhases = (
+				86BDA98CD1074AE7FE99ECB4 /* Check Pods Manifest.lock */,
 				400A3F0F1CAE1C7900FE4A1A /* Sources */,
 				400A3F101CAE1C7900FE4A1A /* Frameworks */,
 				400A3F111CAE1C7900FE4A1A /* Resources */,
+				89F48797B98784C2D6C9BF9F /* Embed Pods Frameworks */,
+				E064AC10AFF64F50ECC5A60F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +188,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86BDA98CD1074AE7FE99ECB4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89F48797B98784C2D6C9BF9F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoToBook/Pods-GoToBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E064AC10AFF64F50ECC5A60F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoToBook/Pods-GoToBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		400A3F0F1CAE1C7900FE4A1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400A3F191CAE1C7A00FE4A1A /* ViewController.swift in Sources */,
+				4068DAFA1CAE4DB2001974F6 /* LoginViewController.swift in Sources */,
+				40C8D4411CAEE0D800C280CF /* BookAddViewController.swift in Sources */,
+				40C8D44D1CAFDC9F00C280CF /* ChatViewController.swift in Sources */,
+				40C8D4451CAF1B5100C280CF /* BookTableViewController.swift in Sources */,
+				400A3F191CAE1C7A00FE4A1A /* SignUpViewController.swift in Sources */,
+				40C8D4431CAF17B400C280CF /* BookTableViewCell.swift in Sources */,
+				4068DAFE1CAE5AD7001974F6 /* DetailViewController.swift in Sources */,
+				4068DAFC1CAE5AB4001974F6 /* BooksListTableViewController.swift in Sources */,
+				40C8D4471CAF84DE00C280CF /* DataFirebase.swift in Sources */,
+				40C8D44B1CAFD25300C280CF /* Book.swift in Sources */,
 				400A3F171CAE1C7A00FE4A1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,8 +362,14 @@
 		};
 		400A3F261CAE1C7A00FE4A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B9951104F202D5C5FC942A /* Pods-GoToBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = GoToBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kz.nurzhan.GoToBook;
@@ -258,8 +379,14 @@
 		};
 		400A3F271CAE1C7A00FE4A1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603F82795E25718B777BEF5C /* Pods-GoToBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = GoToBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kz.nurzhan.GoToBook;
@@ -286,6 +413,7 @@
 				400A3F271CAE1C7A00FE4A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
